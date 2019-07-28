@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Musicsity</title>
+</head>
+
+<body>
+    <div class="player-box">
+        <aside class="sidebar">
+            <h1 id="logo"><span class="txt-highlight">Music</span>sity</h1>
+            <h4 class="txt-highlight">LIBRARY</h4>
+            <ul class='op-list'>
+                <li><i class="material-icons">home</i>Home</li>
+                <li><i class="material-icons">subscriptions</i>Playlists</li>
+                <li><i class="material-icons">mic</i>Artsts</li>
+                <li><i class="material-icons">album</i>Albums</li>
+                <li><i class="material-icons">music_video</i>Songs</li>
+            </ul>
+            <h4 class="txt-highlight">DISCOVER</h4>
+            <ul class="op-list">
+                <li><i class="material-icons">storage</i>Store</li>
+                <li><i class="material-icons">favorite</i>Liked</li>
+                <li><i class="material-icons">settings</i>Settings</li>
+            </ul>
+        </aside>
+        <main class="main">
+            <div class="search-bar">
+                <i class="material-icons search-icon">search</i>
+                <i class="material-icons close-icon">close</i>
+                <input type="text" id="search-input" placeholder="Search for songs,artists...">
+            </div>
+            <div class="liked">
+                <h1 class="list-title">Liked<i class="material-icons more">more_horiz</i></h1>
+                <ul class="liked-list">
+                    <li class="liked-list-item">
+                        <div>
+                            <a href="https://dribbble.com/shots/6619033-Music-player" target="_blank">
+                                <img src="https://cdn.dribbble.com/users/2439706/avatars/small/d66ed81ec33454e0b122e5f0f75d87c8.jpg" alt="avatar" class="song-post">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="recommend">推荐列表</div>
+        </main>
+        <footer class="bottombar">
+            <div class="song-info">
+                <a href="https://dribbble.com/shots/6619033-Music-player" target="_blank">
+                    <img src="https://cdn.dribbble.com/users/2439706/avatars/small/d66ed81ec33454e0b122e5f0f75d87c8.jpg" alt="avatar" class="song-post">
+                </a>
+                <p class="song-name">Unsainted</p>
+                <p class="song-artor">Slipknot</p>
+            </div>
+            <ul class="ctrl-panel">
+                <li><i class="material-icons">skip_previous</i></li>
+                <li><i class="material-icons">pause</i></li>
+                <li><i class="material-icons">skip_next</i></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

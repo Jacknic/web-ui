@@ -1,0 +1,244 @@
+/* 重置样式 */
+
+body,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: white;
+    font: 14px/1.5 "PingFang SC", "微软雅黑", "Microsoft YaHei", Helvetica, "Helvetica Neue", Tahoma, Arial, sans-serif;
+}
+
+.txt-highlight {
+    color: #fb02c8;
+}
+
+
+/* 播放器外框样式 */
+
+.player-box {
+    margin: 50px auto auto;
+    width: 1410px;
+    background-color: #14172d;
+    height: 720px;
+    border-radius: 10px;
+    box-shadow: rgba(20, 23, 45, 0.5) 0 50px 90px;
+    overflow: hidden;
+}
+
+
+/* 侧边栏样式 */
+
+.sidebar {
+    float: left;
+    width: 230px;
+    height: 600px;
+    background-color: #0c163a;
+    border-radius: 0 0 0 30px;
+}
+
+#logo {
+    padding-top: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+.sidebar h1,
+.sidebar h4 {
+    padding-left: 40px;
+}
+
+.sidebar .op-list li {
+    list-style: none;
+    text-align: start;
+    position: relative;
+    line-height: 36px;
+    padding-left: 76px;
+    font-size: 14px;
+}
+
+.sidebar .op-list li:hover {
+    background: linear-gradient(to right, rgba(251, 2, 201, 0.3), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    cursor: pointer;
+}
+
+.sidebar .op-list li i {
+    top: 0;
+    position: absolute;
+    margin-left: -36px;
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.sidebar .op-list li:hover i {
+    color: #fb02c8;
+}
+
+
+/* 内容主体框样式 */
+
+.main {
+    background-color: #08114e;
+    height: 600px;
+    width: 1140px;
+    float: right;
+    padding-left: 40px;
+    border-radius: 0 0 30px 0;
+    background-image: linear-gradient(to right, #08114e, #223c71)
+}
+
+.search-bar {
+    margin-top: 60px;
+    height: 40px;
+    position: relative;
+    width: 490px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.search-bar:hover {
+    background-color: #14172d;
+    box-shadow: 0 0 20px #1a237e;
+    transition: all .4s;
+}
+
+.search-bar .material-icons {
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: -15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-bar .material-icons:hover {
+    background-color: #fb02c8;
+    box-shadow: 0 0 10px #fb02c8;
+}
+
+.search-bar .search-icon {
+    top: 50%;
+    left: 5px;
+}
+
+.search-bar .close-icon {
+    top: 50%;
+    right: 5px;
+}
+
+#search-input {
+    height: 40px;
+    width: 450px;
+    border: 0;
+    padding: 0 40px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+#search-input:focus {
+    outline: none;
+}
+
+.list-title {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 490px;
+}
+
+.list-title .more {
+    width: 30px;
+    height: 30px;
+    right: 0;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.list-title .more:hover {
+    background: #2c2c2c;
+}
+
+.liked-list-item {
+    height: 70px;
+    width: 520px;
+    border-radius: 35px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.liked-list-item:hover {
+    background-color: #2c2c2c5e;
+}
+
+.song-post {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.liked-list-item .song-post {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/* 底部栏样式 */
+
+.bottombar {
+    height: 120px;
+    width: 100%;
+    clear: left;
+}
+
+.bottombar .song-info {
+    position: relative;
+    width: 154px;
+    height: 120px;
+    margin-left: 36px;
+    padding-left: 70px;
+    float: left;
+}
+
+.bottombar .song-info .song-post {
+    top: 50%;
+    margin-top: -25px;
+    left: 0;
+    position: absolute;
+}
+
+.bottombar .song-info .song-name {
+    font-size: 18px;
+}
+
+.ctrl-panel {
+    height: 120px;
+    width: 120px;
+    padding-top: 40px;
+    float: left;
+}
+
+.ctrl-panel li {
+    float: left;
+    display: block;
+}
+
+.ctrl-panel li i {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+}
+
+.ctrl-panel li i:hover {
+    background-color: #fb02c8;
+}
